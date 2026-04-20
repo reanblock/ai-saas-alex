@@ -179,8 +179,8 @@ def main():
     parser = argparse.ArgumentParser(description='Watch CloudWatch logs from all Alex agents')
     parser.add_argument(
         '--region',
-        default='us-east-1',
-        help='AWS region (default: us-east-1)'
+        default='ap-southeast-1',
+        help='AWS region (default: ap-southeast-1)'
     )
     parser.add_argument(
         '--lookback',
